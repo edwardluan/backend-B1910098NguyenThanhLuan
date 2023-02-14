@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (rep, res) => {
-    res.json({ message: "Welcome to contact book application."});
+    res.json({ message: "test get."});
 });
 
 module.exports = app;
